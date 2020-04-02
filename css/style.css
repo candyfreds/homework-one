@@ -1,1 +1,47 @@
 /* Styles for your homework one assignment */
+body 
+	{background-image:url(../images/digital.gif);}
+h1 
+	{font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:50px;
+	color:blue;
+	background-color:#66FFC9;}
+
+h2 
+	{font-family:sans-serif;
+	text-align:center;
+	color:#FF67A1;}
+
+a 
+	{text-decoration: underline;
+	color:#FF67A1;
+	font-size: 25px;}
+
+nav ul
+	{list-style-type: none;
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: lowercase;}
+
+nav li 
+	{display: inline-block;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top:0px;}
+
+.aboutpage 
+	{color:white;
+	background-color:blue;
+	text-align:center;
+	 margin-left:100px;
+	 margin-right:100px;
+	 padding-left:20px;
+	 padding-top:5px;
+	 padding-bottom:5px;
+	 padding-right:20px;
+	 color:white;
+	 grid-template-columns: 60% 40%;
+	 grid-column-gap: 20px;
+	 border-radius:30px;}
